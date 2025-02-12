@@ -1,0 +1,29 @@
+//document.localStorage  //como um banco de dados locais, ele armazena os dados 
+
+// console.log("Oi gente");
+
+// localStorage.setItem("nome1", "Gaby Candido")  // primeiro coloca o "nome da variavel" depois o valor que você quer armazenar //setItem armazena
+// let nome = localStorage.getItem("nome1") //busca o valor
+//console.log("nome", nome);
+
+//só conseguimos apagar dentro de console e aplication, botão direito do mouse e delete
+
+// localStorage.setItem("idade1", 23)
+// let idade =localStorage.getItem("idade1")
+// console.log("Idade", idade);
+
+//{} atributos ao objeto 
+
+let txtusuario = `{ 
+    nome:"Ana" , 
+    idade: 23,
+    email: "m@m"
+};`
+
+let objUsuario = JSON.parse(txtusuario);
+console.log(txtusuario);
+console.log(objUsuario);
+
+localStorage.setItem("usuario1")
+let user = JSON.parse(localStorage.getItem("usuario1"))
+console.log("usuario",user);
