@@ -1,0 +1,16 @@
+{
+  "name": "aula3",
+  "version": "1.0.0",
+  "main": "aul3.js",
+  "type": "module",
+  "scripts": {
+    "fazAlgo": "node aul3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
